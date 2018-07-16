@@ -1,16 +1,16 @@
 function scene1() {
 
   // Setup Stage
-  stage        = document.querySelector('#stage')
-  meadow       = document.querySelector('#grassy-field')
-  meadowImgSrc = meadow.getAttribute('src')
-  stageImg     = stage.querySelector('#stage img')
+  var stage        = document.querySelector('#stage')
+  var meadow       = document.querySelector('#grassy-field')
+  var meadowImgSrc = meadow.getAttribute('src')
+  var stageImg     = stage.querySelector('#stage img')
   stageImg.setAttribute('src', meadowImgSrc)
 
   // Setup Cast
 
   // Arya
-  arya = document.querySelector('#arya')
+  var arya = document.querySelector('#arya')
   arya.style.position = 'absolute'
   arya.style.height = '15%'
   arya.style.top = '22%'
@@ -18,7 +18,7 @@ function scene1() {
   stage.append(arya)
 
   // Bran
-  bran = document.querySelector('#bran')
+  var bran = document.querySelector('#bran')
   bran.style.position = 'absolute'
   bran.style.height = '15%'
   bran.style.top = '55%'
@@ -28,7 +28,7 @@ function scene1() {
   // Setup Props
 
   // Mushroom
-  mushroom = document.querySelector('#mushroom')
+  var mushroom = document.querySelector('#mushroom')
   mushroom.style.position = 'absolute'
   mushroom.style.height = '10%'
   mushroom.style.top = '75%'
